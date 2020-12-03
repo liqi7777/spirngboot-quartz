@@ -23,7 +23,6 @@ public class HelloQuartz implements Job {
         String name = detail.getJobDataMap().getString("name");
         System.out.println("工作名：" + name + "---->今日整点抢购，不容错过！");
 
-
     }
 
     public static void main(String[] args) throws Exception {
